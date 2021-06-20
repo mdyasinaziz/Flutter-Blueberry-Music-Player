@@ -1,0 +1,40 @@
+name: blueberry_audio_player      
+description: A simple audio player made with flutter and love. 
+author: Md. Yasin Aziz <md.yasin.aziz@g.bracu.ac.bd> 
+
+version: 1.0.0+1
+
+environment:
+  #sdk: ">=2.1.0-dev.68.0 <3.0.0" 
+  sdk: ">=2.7.0 <3.0.0"
+  #flutter: ">=1.10.0 <2.0.0"
+  #overlay_support: 1.0.5-hotfix1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #overlay_support: ^1.0.5
+  #pull_to_refresh: 1.6.4-nullsafety.0
+  #overlay_support: 1.0.5-hotfix1
+  audio_service:
+  cupertino_icons: ^0.1.2
+  audioplayer: ^0.5.2
+  shared_preferences: ^0.5.12+4
+  just_audio: ^0.4.4
+  flutter_audio_query: ^0.3.5+6
+    # path: ../
+
+dev_dependencies:
+
+  flutter_driver:
+    sdk: flutter
+  test: any
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/no_cover.png
